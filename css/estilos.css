@@ -117,15 +117,11 @@ table {
   font-weight: 600;
   text-align: left;
   color:rgb(123, 124, 124);
+  list-style-image: url(../img/idioma.png);
 }
 
 .lista__idioma:last-of-type{
   padding-bottom: 2.5rem;
-}
-
-.lista__idioma::before{
-  content: url(../img/idioma.png);
-  padding-right: 0.25rem;
 }
 
 .lista__idioma-autores{
@@ -161,9 +157,60 @@ table {
   margin: 0;
 }
 
+/* =================== MOTIVACIONES ================= */
+
+.motivaciones__titulo{
+  font-size: 3rem;
+  font-weight: bold;
+  padding-top: 2em;
+  padding-bottom: 0.5em;
+}
+
+.motivaciones__fecha{
+  font-size: 1.25rem;
+  margin: 0;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.motivaciones__ordenacion{
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  padding-bottom: 3rem;
+}
+
+.motivaciones__definition-list{
+  margin: 0;
+  padding: 0 20%;
+}
+
+.motivaciones__definition-term{
+  font-size: 1.75rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.motivaciones__definition-description{
+  text-align: left;
+  text-decoration: dotted;
+  padding: 2rem 3rem 2rem 3rem;
+}
+
+.motivaciones__definition-description--quote{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+.motivaciones__definition-description--fecha{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: grey;
+}
+
 /* ================== HEADER MENÚ ================== */
 .menu__letras{
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia,"Bitstream Charter","Times New Roman",Times,serif;
   font-size: 3.5rem;
   font-weight: 900;
   letter-spacing: 0.125rem;
