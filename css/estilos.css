@@ -60,16 +60,105 @@ table {
 }
 
 .footer{
-  background-color: rgb(0, 0, 31);
+  font-size: 1rem;
+  background-color: rgb(0, 0, 22);
   color: white;
   margin: 0;
-  padding:5rem 0;
+  padding:4.5rem 0;
   width: 100%;
+}
+
+.footer__ico{
+  font-size: 0.75rem;
+  text-align: center;
+  padding-top: 1.5rem;
 }
 
 .enlace{
   color: rgb(236, 90, 53);
   text-decoration: none;
+}
+
+/* ==================   PREMIOS   =================== */
+.premios__titulo{
+  font-size: 3rem;
+  font-weight: bold;
+  padding-top: 2em;
+  padding-bottom: 0.5em;
+}
+
+.premios__fecha{
+  font-size: 1.25rem;
+  margin: 0;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.premios__ordenacion{
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  padding-bottom: 3rem;
+}
+
+.premios__referencia{
+  padding-bottom: 5rem;
+}
+
+/* ==================   LISTA PREMIOS   =================== */
+
+.lista{
+  margin: 0;
+  padding: 0 35%;
+}
+
+.lista__idioma{
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: left;
+  color:rgb(123, 124, 124);
+}
+
+.lista__idioma:last-of-type{
+  padding-bottom: 2.5rem;
+}
+
+.lista__idioma::before{
+  content: url(../img/idioma.png);
+  padding-right: 0.25rem;
+}
+
+.lista__idioma-autores{
+  list-style-type: square;
+  padding-left: 4rem;
+}
+
+.lista__idioma-autor{
+  font-size: 1.25rem;
+  font-weight: 100;
+  padding-bottom: 0.85rem;
+}
+
+.lista__idioma-autor:first-of-type{
+  padding-top: 0.85rem;
+}
+
+.lista__idioma-autor::marker{
+  color: black;
+  font-size: 0.8em;
+}
+
+.lista__idioma--fecha{
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: grey;
+}
+
+.lista__idioma--fecha::after {
+  content: ":";
+  color: black;
+  font-weight: 100;
+  margin: 0;
 }
 
 /* ================== HEADER MENÚ ================== */
@@ -79,24 +168,22 @@ table {
   font-weight: 900;
   letter-spacing: 0.125rem;
   color: rgb(236, 90, 53);
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  padding: 0.5em 0 0.5em 0;
 }
 
-.menu__pagina-actual{
-  font-weight: bold;
+.menu__item{
+  padding: 0.35em 0 0.35em 0;
   font-size: 1.1rem;
-  font-style: italic;
 }
 
-.menu__enlace-pagina{
-  font-size: 1.1rem;
-  padding-top: 0.5em;
-}
-
-.menu__enlace-pagina--oculto{
+.menu__enlace{
   text-decoration: none;
   color: black;
+}
+
+.menu__enlace--actual{
+  font-weight: bold;
+  font-style: italic;
 }
 
 /* ================== INTRODUCCIÓN ================== */
