@@ -109,7 +109,7 @@ table {
 
 .lista{
   margin: 0;
-  padding: 0 35%;
+  padding: 0 36%;
 }
 
 .lista__idioma{
@@ -126,7 +126,7 @@ table {
 
 .lista__idioma-autores{
   list-style-type: square;
-  padding-left: 4rem;
+  padding-left: 2rem;
 }
 
 .lista__idioma-autor{
@@ -144,13 +144,13 @@ table {
   font-size: 0.8em;
 }
 
-.lista__idioma--fecha{
+.lista__idioma-autor--fecha{
   font-size: 1.6rem;
   font-weight: 700;
   color: grey;
 }
 
-.lista__idioma--fecha::after {
+.lista__idioma-autor--fecha::after {
   content: ":";
   color: black;
   font-weight: 100;
@@ -186,12 +186,14 @@ table {
 }
 
 .motivaciones__definition-term{
-  font-size: 1.75rem;
+  font-size: 1.55rem;
   font-weight: 600;
   text-align: left;
 }
 
 .motivaciones__definition-description{
+  font-size: 1.3rem;
+  line-height: 2rem;
   text-align: left;
   text-decoration: dotted;
   padding: 2rem 3rem 2rem 3rem;
@@ -206,6 +208,10 @@ table {
   font-size: 1.5rem;
   font-weight: 700;
   color: grey;
+}
+
+.motivaciones__referencia{
+  padding-bottom: 5rem;
 }
 
 /* ================== HEADER MENÚ ================== */
