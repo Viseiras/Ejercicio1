@@ -30,6 +30,25 @@ footer, header, hgroup, menu, nav, section {
   src: url(../fuentes/georgia.ttf);
 }
 
+@font-face {
+  font-family: Georgia;
+  src: url(../fuentes/georgiab.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Georgia;
+  src: url(../fuentes/georgiai.ttf);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Georgia;
+  src: url(../fuentes/georgiaz.ttf);
+  font-weight: bold;
+  font-style: italic;
+}
+
 body {
 	line-height: 1;
 }
